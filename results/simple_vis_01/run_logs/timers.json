@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1717526628",
+        "python_version": "3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "D:\\Net\\unity\\zpip\\venv\\Scripts\\mlagents-learn .\\Assets\\ML-Agents\\SimpleCollector.yaml --run-id simple_vis_01",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.3.0+cpu",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1717526678"
+    },
+    "total": 50.34271499999977,
+    "count": 1,
+    "self": 0.012513399999988906,
+    "children": {
+        "run_training.setup": {
+            "total": 0.12118769999960932,
+            "count": 1,
+            "self": 0.12118769999960932
+        },
+        "TrainerController.start_learning": {
+            "total": 50.20901390000017,
+            "count": 1,
+            "self": 0.00032019999980548164,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 50.20868620000056,
+                    "count": 1,
+                    "self": 50.20868620000056
+                },
+                "trainer_threads": {
+                    "total": 6.000000212225132e-07,
+                    "count": 1,
+                    "self": 6.000000212225132e-07
+                },
+                "TrainerController._save_models": {
+                    "total": 6.8999997893115506e-06,
+                    "count": 1,
+                    "self": 6.8999997893115506e-06
+                }
+            }
+        }
+    }
+}
